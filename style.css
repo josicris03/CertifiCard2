@@ -1,0 +1,116 @@
+body {
+  background: linear-gradient(236.85deg, #bdada7 27.26%, #f7d1ba 96.03%);
+  font-family: "Roboto Mono", monospace;
+}
+/* o body é par estilizar a pagina toda, o corpo todo do site */
+/* body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-image: url("https://i.pinimg.com/564x/c9/22/fa/c922fa417ad9d489cdbc3d0890b8ac5d.jpg");
+  background-size: cover;
+  background-position: center;
+} */
+
+.container {
+  background: #ecf4ff;
+  /* cor do fundo do container   */
+  color: #1c1c1c;
+  /* cor da fonte   */
+  margin: 64px;
+  /*  margin  é a distancia que queremos entre as peças*/
+  border-radius: 20px;
+  /* para deixar a borda redonda   */
+  box-shadow: 6px 6px 6px #0e1d2f;
+  /*  sombra do elemento, efeito 3d  */
+  padding: 64px;
+  /* para arrumar a foto ou seja, margem dos elementos que tem dentro do container    */
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  /*  para deixar a imagem aredondada  */
+  max-height: 160px;
+  /*  altura máxima da foto  */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /*    */
+}
+
+.titulo {
+  margin-left: 16px;
+  /*  arrumar a distancia do elemento a esquerda  */
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #d6ddd8;
+  color: #000000;
+  margin-top: 32px;
+  pedding: 32px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
+
+.projeto-titulo {
+  list-style: none;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.projeto-itens {
+  list-style-type: none;
+  /*é para tirar os pontos que aparecem na frente de uma listra*/
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  /*  é o que deixa o espaçamento das linhas  */
+}
+
+.projeto-itens a {
+  color: #000000;
+  text-decoration: none;
+  /* vai tirar o sublinhado que fica do link      */
+}
+.projeto-itens a:hover {
+  color: #46295a;
+  transition: esase all 0.3s;
+}
+
+footer {
+  justify-content: center;
+  display: flex;
+  padding: 3px 0;
+  margin-top: 10px;
+}
+
+footer a img {
+  margin: 10px;
+  height: 50px;
+  width: fit-content;
+}
+
+.contatos-logo {
+  display: flex;
+  flex-direction: row;
+  background: #d6ddd8;
+  color: #000000;
+  margin-top: 32px;
+  pedding: 32px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+}
